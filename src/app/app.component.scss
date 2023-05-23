@@ -1,0 +1,30 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.mat-toolbar {
+  flex: 0;
+}
+
+.sidenav-container {
+  flex: 1;
+  position: relative;
+  background: #eff3f8;
+}
+
+.sidenav {
+  width: 320px;
+}
+
+
+.main-content {
+  max-width: 1140px;
+  padding: 32px;
+}
