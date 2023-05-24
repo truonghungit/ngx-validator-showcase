@@ -1,0 +1,19 @@
+input {
+  width: 420px;
+  display: block;
+  padding: 0.5rem 0.75rem;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+form>div {
+  margin-bottom: 16px;
+}
+
+button {
+  padding: 0.5rem 1.25rem;
+  cursor: pointer;
+}

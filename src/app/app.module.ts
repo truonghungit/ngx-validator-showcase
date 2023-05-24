@@ -19,6 +19,8 @@ import { AppComponent } from './app.component';
 import { BootstrapComponent } from './bootstrap/bootstrap.component';
 import { SimpleFormComponent } from './simple-form/simple-form.component';
 import { CodeComponent } from './code/code.component';
+import { HttpClientModule } from '@angular/common/http';
+import { TranslocoRootModule } from './transloco-root.module';
 
 @NgModule({
   declarations: [
@@ -44,6 +46,10 @@ import { CodeComponent } from './code/code.component';
     FormValidatorModule,
 
     AppRoutingModule,
+
+    HttpClientModule,
+
+    TranslocoRootModule,
 
   ],
   providers: [],

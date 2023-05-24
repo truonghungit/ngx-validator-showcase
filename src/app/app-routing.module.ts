@@ -11,6 +11,10 @@ const routes: Routes = [
   {
     path: 'bootstrap',
     component: BootstrapComponent
+  },
+  {
+    path: 'multi-language',
+    loadChildren: () => import('./multi-language/multi-language.module').then((m) => m.MultiLanguageModule)
   }
 ];
 

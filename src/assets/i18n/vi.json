@@ -1,0 +1,5 @@
+{
+  "required": "Thông tin bắt buộc",
+  "email": "Email không đúng",
+  "confirmPasswordNotMatch": "Xác nhận mật khẩu không đúng"
+}
